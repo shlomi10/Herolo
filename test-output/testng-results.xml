@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-25T12:47:00 IDT" name="Suite" finished-at="2020-06-25T12:47:21 IDT" duration-ms="20103">
+    <groups>
+      <group name="Test fields">
+        <method signature="MainRunner.sendFieldsfilled()[pri:4, instance:tests.MainRunner@47542153]" name="sendFieldsfilled" class="tests.MainRunner"/>
+        <method signature="MainRunner.testBottomForm()[pri:10, instance:tests.MainRunner@47542153]" name="testBottomForm" class="tests.MainRunner"/>
+        <method signature="MainRunner.testEmptyFieldsAtSubmitBottom()[pri:6, instance:tests.MainRunner@47542153]" name="testEmptyFieldsAtSubmitBottom" class="tests.MainRunner"/>
+        <method signature="MainRunner.testEmptyFieldsAtSubmitFotter()[pri:3, instance:tests.MainRunner@47542153]" name="testEmptyFieldsAtSubmitFotter" class="tests.MainRunner"/>
+      </group> <!-- Test fields -->
+      <group name="Open Web Site test">
+        <method signature="MainRunner.upFooterOpenWebSite()[pri:1, instance:tests.MainRunner@47542153]" name="upFooterOpenWebSite" class="tests.MainRunner"/>
+      </group> <!-- Open Web Site test -->
+      <group name="Tab test name">
+        <method signature="MainRunner.titleTest()[pri:2, instance:tests.MainRunner@47542153]" name="titleTest" class="tests.MainRunner"/>
+      </group> <!-- Tab test name -->
+      <group name="Links at bottom test">
+        <method signature="MainRunner.testFaceBookLink()[pri:8, instance:tests.MainRunner@47542153]" name="testFaceBookLink" class="tests.MainRunner"/>
+      </group> <!-- Links at bottom test -->
+      <group name="carousel of projects">
+        <method signature="MainRunner.testNumberOfItemsAtCarousel()[pri:7, instance:tests.MainRunner@47542153]" name="testNumberOfItemsAtCarousel" class="tests.MainRunner"/>
+      </group> <!-- carousel of projects -->
+      <group name="Test WhatApp Link">
+        <method signature="MainRunner.testwhatAppLink()[pri:5, instance:tests.MainRunner@47542153]" name="testwhatAppLink" class="tests.MainRunner"/>
+      </group> <!-- Test WhatApp Link -->
+    </groups>
+    <test started-at="2020-06-25T12:47:00 IDT" name="Home Page" finished-at="2020-06-25T12:47:21 IDT" duration-ms="20103">
+      <class name="tests.MainRunner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:01 IDT" name="setup" finished-at="2020-06-25T12:47:07 IDT" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="upFooterOpenWebSite()[pri:1, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:07 IDT" name="upFooterOpenWebSite" description="Open the web site test" finished-at="2020-06-25T12:47:10 IDT" duration-ms="2952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upFooterOpenWebSite -->
+        <test-method signature="titleTest()[pri:2, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:10 IDT" name="titleTest" description="Test if the tab name as expected" finished-at="2020-06-25T12:47:10 IDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="testEmptyFieldsAtSubmitFotter()[pri:3, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:10 IDT" name="testEmptyFieldsAtSubmitFotter" description="Test empty fields at submit" finished-at="2020-06-25T12:47:10 IDT" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsAtSubmitFotter -->
+        <test-method signature="sendFieldsfilled()[pri:4, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:10 IDT" name="sendFieldsfilled" description="Test correct fields at submit" finished-at="2020-06-25T12:47:13 IDT" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendFieldsfilled -->
+        <test-method signature="testwhatAppLink()[pri:5, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:13 IDT" name="testwhatAppLink" description="Test whastApp link" finished-at="2020-06-25T12:47:15 IDT" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testwhatAppLink -->
+        <test-method signature="testEmptyFieldsAtSubmitBottom()[pri:6, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:15 IDT" name="testEmptyFieldsAtSubmitBottom" description="Test that bottom have 4 errors" finished-at="2020-06-25T12:47:16 IDT" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsAtSubmitBottom -->
+        <test-method signature="testNumberOfItemsAtCarousel()[pri:7, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:16 IDT" name="testNumberOfItemsAtCarousel" description="Test the number of projects at the carousel" finished-at="2020-06-25T12:47:16 IDT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNumberOfItemsAtCarousel -->
+        <test-method signature="testFaceBookLink()[pri:8, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:16 IDT" name="testFaceBookLink" description="Test FaceBook Link" finished-at="2020-06-25T12:47:18 IDT" duration-ms="2405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFaceBookLink -->
+        <test-method signature="testBottomForm()[pri:10, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:18 IDT" name="testBottomForm" description="Test that bottom send the form correct" finished-at="2020-06-25T12:47:20 IDT" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBottomForm -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.MainRunner@47542153]" started-at="2020-06-25T12:47:20 IDT" name="close" finished-at="2020-06-25T12:47:21 IDT" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.MainRunner -->
+    </test> <!-- Home Page -->
+  </suite> <!-- Suite -->
+</testng-results>
